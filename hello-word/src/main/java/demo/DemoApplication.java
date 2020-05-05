@@ -12,7 +12,7 @@ public class DemoApplication {
 	@GetMapping(value="/hello")
 	public String getMethodNameString() {
 
-		return "Hello Word!";
+		return "Hello World!";
 	}
 
 	public static void main(String[] args) {
