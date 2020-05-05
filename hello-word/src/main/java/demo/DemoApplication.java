@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoApplication {
 	
-	
 	@GetMapping(value="/hello")
 	public String getMethodNameString() {
 
